@@ -10,10 +10,10 @@ As part of the recruitment process we require the following simple task to be co
 
 ### Tech
 While we want you to impliment your own design we do have a few restrictions due to our current stack:
-* [ReactJS]
-* [node.js]
-* [express]
-* [Mariadb] - MySql is fine also
+- [ReactJS]
+- [node.js]
+- [express]
+- [Mariadb] - MySql is fine also
 
 So, please no Angluar, NoSQL, etc.
 
