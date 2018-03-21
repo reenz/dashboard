@@ -1,6 +1,6 @@
 # i2c
 
-As part of the recruitment process we require the following simple task to be completed.
+As part of the recruitment process we require the following task to be completed.
 
 # Task
 - Create a simple dashboard to present the data within a structure that will be legible and easily digested by end-users.
