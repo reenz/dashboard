@@ -6,17 +6,18 @@ As part of the recruitment process we require the following task to be completed
 - Create a simple dashboard to present the data within a structure that will be legible and easily digested by end-users.
 - This can include as many charts as you feel is required, plus consideration towards chart type.
 - It may also include text describing the charts but please do not analyse the data, simply use Lorem Ipsum as representation.
-- Style the dashboard as you see fit.
+- Style the dashboard as you see fit. However, please bear in mind that we utilise [MaterialUI] in one of our projects.
+- We would like to see the front end fetching the data via an API.
 
 ### Tech
-While we want you to implement your own design we do have a few restrictions due to our current stack:
+While we want you to implement your own ideas and creativity to this task we do have a few restrictions due to our current stack:
 
 - [ReactJS]
 - [node.js]
 - [express]
 - [Mariadb] - MySql is fine also
 
-So, please no Angular, NoSQL, etc.
+So, please no Angular, NoSQL, etc. And definitely no jQuery for the ui/ux
 
 ### Data
 You will find the following files:
@@ -32,3 +33,4 @@ The files hold the same data but obviously via different methods - feel free to 
 [express]: <http://expressjs.com>
 [ReactJS]: <https://reactjs.org/>
 [Mariadb]: <https://mariadb.org/>
+[MaterialUI]: <https://www.material-ui.com/#/>
