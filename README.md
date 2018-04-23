@@ -27,8 +27,6 @@ You will find the following files:
 |   +-- top.csv - top line values for each metric, value uplift and % uplift
 ```
 
-The files hold the same data but obviously via different methods - feel free to utilise the data as you see fit.
-
 [node.js]: <http://nodejs.org>
 [express]: <http://expressjs.com>
 [ReactJS]: <https://reactjs.org/>
