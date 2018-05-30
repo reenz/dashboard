@@ -1,4 +1,4 @@
-# i2c
+# i2C
 
 As part of the recruitment process we require the following task to be completed.
 
@@ -27,8 +27,14 @@ You will find the following files:
 |   +-- top.csv - top line values for each metric, value uplift and % uplift
 ```
 
+Typically, weekly data is presented using a line chart with the top-line values being displayed in either a bar chart or table format.
+
+### Questions
+Should you have any questions, please feel free to reach out via email.
+
 [node.js]: <http://nodejs.org>
 [express]: <http://expressjs.com>
 [ReactJS]: <https://reactjs.org/>
 [Mariadb]: <https://mariadb.org/>
 [MaterialUI]: <https://www.material-ui.com/#/>
+
