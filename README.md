@@ -38,3 +38,6 @@ Should you have any questions, please feel free to reach out via email.
 [Mariadb]: <https://mariadb.org/>
 [MaterialUI]: <https://www.material-ui.com/#/>
 
+### References
+
+1. https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04
