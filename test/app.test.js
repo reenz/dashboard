@@ -26,4 +26,20 @@ describe("index page",() => {
       done();
     });
   });
+
+  it("should respond with properties of the table", (done) => {
+    chai.request(server)
+    .get('/top-table')
+    .end((err, res) => {
+      should.not.exist(err);
+      res.body.table[0].should.have.property('ID');
+      res.body.table[0].should.have.property('METRIC');
+      res.body.table[0].should.have.property('PRODUCT');
+      res.body.table[0].should.have.property('EXPOSED');
+      res.body.table[0].should.have.property('CONTROL');
+      res.body.table[0].should.have.property('UPLIFT');
+      res.body.table[0].should.have.property('PCT_UPLIFT');
+      done();
+    });
+  });
 });
