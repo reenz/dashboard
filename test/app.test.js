@@ -16,4 +16,14 @@ describe("index page",() => {
       done();
     });
   });
+
+  it("should respond number of row in table", (done) => {
+    chai.request(server)
+    .get('/top-table')
+    .end((err, res) => {
+      should.not.exist(err);
+      res.body.table.length.should.equal(12);
+      done();
+    });
+  });
 });
