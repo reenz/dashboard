@@ -45,6 +45,7 @@ class TopTable extends Component {
               )}
           </tbody>
           </table>
+          <BarChart data={this.state.topTable.map(row => [row.PRODUCT,row.PCT_UPLIFT])} />
         </div>
     );
   }
