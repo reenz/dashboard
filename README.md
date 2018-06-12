@@ -29,9 +29,6 @@ You will find the following files:
 
 Typically, weekly data is presented using a line chart with the top-line values being displayed in either a bar chart or table format.
 
-### Questions
-Should you have any questions, please feel free to reach out via email.
-
 [node.js]: <http://nodejs.org>
 [express]: <http://expressjs.com>
 [ReactJS]: <https://reactjs.org/>
