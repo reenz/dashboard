@@ -1,4 +1,4 @@
-# i2C(WIP)
+# i2C
 
 As part of the recruitment process we require the following task to be completed.
 
