@@ -1,8 +1,10 @@
 import React, { Component} from 'react';
+import { VictoryBar } from 'victory';
 import Chartkick from "chartkick";
 import ReactChartkick, { LineChart, PieChart, BarChart } from 'react-chartkick';
 import Chart from 'chart.js'
 ReactChartkick.addAdapter(Chart);
+
 
 class TopTable extends Component {
   
@@ -26,13 +28,13 @@ class TopTable extends Component {
     let data = []
     return (
         <div className="Users container">
-          <h1>Users</h1>
+          <h1>Dashboard</h1>
           <table className="table">
           <thead>
             <tr>
-              <th>topTable METRIC</th>
-              <th>topTable PRODUCT</th>
-              <th>topTable PCT_UPLIFT</th>
+              <th>METRIC</th>
+              <th>PRODUCT</th>
+              <th>PCT_UPLIFT</th>
             </tr>
           </thead>
           <tbody>
@@ -45,7 +47,6 @@ class TopTable extends Component {
               )}
           </tbody>
           </table>
-          <BarChart data={this.state.topTable.map(row => [row.PRODUCT,row.PCT_UPLIFT])} />
         </div>
     );
   }
