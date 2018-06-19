@@ -21,11 +21,24 @@ So, please no Angular, NoSQL, etc. And definitely no jQuery for the ui/ux
 
 ### How to use
 * Git clone `https://github.com/reenz/dashboard.git`
-* Set environment variables `USER` and `PASSWORD` for mysql database
-* Inside your project run `mysql -u user -p < sample.sql` to create database, table and populate your database from csv files.
+* Set environment variables `USER` and `PASSWORD` for MySql database
+* Inside your project run `mysql -u user -p < setup.sql` to create database, table and populate your database from csv files.
 * `npm start` it will start both the express and react server and will automatically direct to localhost:3000
 * `npm test` to run the backend(express app) tests
 * `cd client` and `npm test` then it will run react app tests
+
+### Approach
+
+* I decided to use MySql just because there was not enough documentation available for Mariadb to use.
+* I divided the task into small steps as follows:
+    * Make an express server.
+    * Install MySql and create database and table
+    * Create react app
+    * Fetch data from database into react component and display it in a table first 
+* It becomes easy to clone and use I made setup.sql file that will create database and table and will populate the table from the csv files available.
+* So that I could test the database I made a separate private function connect that will establish the connection for database.
+* As this task was my first ever full stack react-express MySql app, I was not aware how to fetch data from database into the react app, after reading some medium articles I was able fetch the data and display it in table.
+* Now next step was to display the data in bar graph instead of table. There were lots options available I decided to use ChartKick simply thought it will be easy to use.
 
 ### Data
 You will find the following files:
