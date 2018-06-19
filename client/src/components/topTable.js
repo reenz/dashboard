@@ -1,4 +1,5 @@
 import React, { Component} from 'react';
+import './topTable.css';
 import { VictoryBar } from 'victory';
 import Chartkick from "chartkick";
 import ReactChartkick, { LineChart, PieChart, BarChart } from 'react-chartkick';
@@ -27,7 +28,7 @@ class TopTable extends Component {
   render() {
     let data = []
     return (
-        <div className="Users container">
+        <div className="tableContainer">
           <h1>Dashboard</h1>
           <table className="table">
           <thead>

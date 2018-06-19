@@ -1,0 +1,15 @@
+.tableContainer {
+    background-color:white;
+    padding: 10px;
+    
+}
+
+.table{
+    padding-left: 550px;
+}
+
+td {
+    border-bottom-color: lightgrey;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+}
