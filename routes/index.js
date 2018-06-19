@@ -36,7 +36,7 @@ function _connect() {
     host     : 'localhost',
     user     : process.env.USER,
     password : process.env.PASSWORD,
-    database : process.env.DATABASE
+    database : 'dashboard'
   });
   connection.connect();
   return connection;
