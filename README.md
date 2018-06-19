@@ -19,6 +19,14 @@ While we want you to implement your own ideas and creativity to this task we do 
 
 So, please no Angular, NoSQL, etc. And definitely no jQuery for the ui/ux
 
+### How to use
+* Git clone `https://github.com/reenz/dashboard.git`
+* Set environment variables `USER` and `PASSWORD` for mysql database
+* Inside your project run `mysql -u user -p < sample.sql` to create database, table and populate your database from csv files.
+* `npm start` it will start both the express and react server and will automatically direct to localhost:3000
+* `npm test` to run the backend(express app) tests
+* `cd client` and `npm test` then it will run react app tests
+
 ### Data
 You will find the following files:
 ```
